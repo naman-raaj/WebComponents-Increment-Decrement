@@ -1,20 +1,6 @@
 //+ {count} -
 //attribute- steps- 1,5,initialValue
 
-const template=document.createElement('template');
-template.innerHTML=`
-    <style>
-    h3{
-        color:red;
-        font-size:40px;
-    }
-    
-    </style>    
-    
-    
-
-
-`;
 
 
 class CountElement extends HTMLElement{
